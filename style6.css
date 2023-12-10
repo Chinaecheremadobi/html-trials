@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* background-color: cyan; */
+	padding: 18px;
+	width: 99vw;
+	border-bottom: 1px solid gray;
+}
+
+.leftNav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.centerNav {
+	height: inherit;
+	display: flex;
+	align-items: center;
+}
+
+.rightNav {
+	display: flex;
+	justify-content: center;
+}
+
+#links {
+	display: flex;
+	justify-content: space-between;
+	width: 40rem;
+}
+
+.door a {
+	display: flex;
+	justify-content: space-between;
+	width: 4rem;
+	align-items: center;
+	/* padding: 15px; */
+	padding-top: 12px;
+	text-decoration: none;
+	/* background-color: brown; */
+	/* margin-left: 3px; */
+}
+
+svg {
+	width: 1rem;
+	height: 1rem;
+}
+
+#about {
+	display: flex;
+	flex-direction: row;
+	margin: 0px 100px 0px 0px;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	width: 200px;
+	/* background-color: chartreuse; */
+}
+
+.Book {
+	padding: 60px, 90px;
+	margin-right: 30px;
+	background-color: rgb(118, 118, 197);
+	width: 98px;
+	font-size: 13px;
+	color: white;
+	border: none;
+}
+
+.door {
+	display: flex;
+	align-items: center;
+	width: 150px;
+	justify-content: space-evenly;
+	margin-left: 2rem;
+	margin-bottom: 5px, 3px;
+	font-size: 13px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	/* padding: 10px; */
+	/* background-color: burlywood; */
+}
+
+.door a {
+	width: 100px;
+	padding-top: 0;
+}

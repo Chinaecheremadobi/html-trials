@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+
+.img{
+    border-radius: 2px solid black;
+    display: flex;
+    align-items: center;
+  
+}
+
+.h1{
+    font-size: 500%;
+
+}
+
+.profile-pic-figure{
+    width: 35%;
+}
+
+.profile-pic-figure img{
+    width: 100%;
+}
